@@ -173,14 +173,14 @@ Then, inside Cursor, open **Customize** in the sidebar, find **antislop**, and s
 Add the marketplace once, then install the plugin:
 
 ```bash
-omp plugin marketplace add miqdadbadjuber/anti-slop
+omp plugin marketplace add oggiesutrisna/omp-anti-slop-integration
 omp plugin install antislop@anti-slop
 ```
 
 Or from inside an active Oh My Pi session:
 
 ```text
-/marketplace add miqdadbadjuber/anti-slop
+/marketplace add oggiesutrisna/omp-anti-slop-integration
 /marketplace install antislop@anti-slop
 ```
 ---

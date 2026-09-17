@@ -127,23 +127,28 @@ agent plugin marketplace add https://github.com/miqdadbadjuber/anti-slop
 ```
 
 Then open **Customize** in Cursor, find **antislop**, and select **Install**, choosing project or user scope.
-
 ### 7. The plugin (Oh My Pi)
 
-The same repo is an Oh My Pi plugin and marketplace. Add the marketplace once, then install the plugin:
+This repository is an Oh My Pi plugin and marketplace. Add the marketplace once, then install the plugin:
 
 ```bash
-omp plugin marketplace add miqdadbadjuber/anti-slop
+omp plugin marketplace add oggiesutrisna/omp-anti-slop-integration
 omp plugin install antislop@anti-slop
 ```
 
 Or from an active Oh My Pi session:
 
 ```text
-/marketplace add miqdadbadjuber/anti-slop
+/marketplace add oggiesutrisna/omp-anti-slop-integration
 /marketplace install antislop@anti-slop
 ```
 
+If you are using the upstream repository directly:
+
+```bash
+omp plugin marketplace add miqdadbadjuber/anti-slop
+omp plugin install antislop@anti-slop
+```
 ### Where the skills live
 
 Every skill is a folder of the open Agent Skills standard (`<name>/SKILL.md`), so it drops into any agent that reads the standard. The installer (path 1) installs into whichever of these you use, creating the folder if it is missing:
